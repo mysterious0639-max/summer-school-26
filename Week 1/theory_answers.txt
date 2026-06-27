@@ -1,0 +1,15 @@
+IIT Jammu Summer School 2026 - Week 1 Assignment
+
+==================================================
+TASK 14: Differences Between if-else and switch-case in IoT
+==================================================
+1. Condition Type: if-else can evaluate complex conditions with logical operators (&&, ||) and ranges (e.g., temperature > 30). switch-case only checks for exact, constant expression matches (e.g., state == 1).
+2. Speed & Efficiency: switch-case uses a jump table internally, making it faster when dealing with a large number of discrete system states.
+3. Code Readability: switch-case provides cleaner and more readable code when handling multiple fixed states or commands received from IoT sensors.
+
+==================================================
+TASK 15: System States and Management
+==================================================
+1. IoT System States: Standard states include Initialization (booting), Idle (waiting for triggers), Active (collecting/processing data), and Sleep Mode (power saving).
+2. State Transitions: Transitions occur based on sensor inputs or timers (e.g., switching from Sleep to Active when motion is detected).
+3. Power Management: State management ensures the microcontroller enters low-power sleep modes dynamically to preserve battery life in remote IoT deployments.
